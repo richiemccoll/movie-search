@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function SearchForm({ handleSearchSubmit, error }) {
   const inputRef = React.createRef();
@@ -79,5 +80,10 @@ function SearchForm({ handleSearchSubmit, error }) {
     </section>
   );
 }
+
+SearchForm.propTypes = {
+  handleSearchSubmit: PropTypes.func.isRequired,
+  error: PropTypes.string.isRequired,
+};
 
 export default SearchForm;

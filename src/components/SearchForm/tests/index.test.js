@@ -10,21 +10,23 @@ Enzyme.configure({ adapter: new Adapter() });
 
 describe("SearchForm", () => {
   it("should render correctly", () => {
-    const component = renderer.create(<SearchForm />);
+    const component = renderer.create(
+      <SearchForm handleSearchSubmit={Function.prototype} error="" />,
+    );
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it("should call handleSubmit with the value of the input field", () => {
     const searchSubmitSpy = jest.fn();
-    const initial = mount(<SearchForm handleSearchSubmit={searchSubmitSpy} />);
+    const initial = mount(<SearchForm handleSearchSubmit={searchSubmitSpy} error="" />);
     initial.find("#search").simulate("change", { target: { value: "test " } });
     initial.find("form").simulate("submit", { preventDefault: Function.prototype });
     expect(searchSubmitSpy).toBeCalled();
   });
 
   it("should display some sort of error to the user", () => {
-    const initial = shallow(<SearchForm />);
+    const initial = shallow(<SearchForm handleSearchSubmit={Function.prototype} error="" />);
     expect(initial.find(".error").length).toBe(0);
     expect(initial.find("#search").html()).toMatchSnapshot();
 
