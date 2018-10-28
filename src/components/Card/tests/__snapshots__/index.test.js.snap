@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render correctly 1`] = `
+<article
+  className="jsx-3065145673"
+>
+  <img
+    alt=""
+    className="jsx-3065145673"
+    src="url-to-image"
+  />
+  <h2
+    className="jsx-3065145673"
+  >
+    test
+  </h2>
+  <p
+    className="jsx-3065145673"
+  >
+    this is a test
+  </p>
+  <small
+    className="jsx-3065145673"
+  >
+    Release Date - 
+    today
+  </small>
+  <small
+    className="jsx-3065145673"
+  >
+    Popularity - 
+    10
+     / 10 
+  </small>
+</article>
+`;
