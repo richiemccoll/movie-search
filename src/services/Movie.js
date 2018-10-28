@@ -13,11 +13,21 @@ class MovieService {
   search = async (query) => {
     // Check session storage cache for query hit,
     // return that without making the network request if we have it.
+    const isInCache = sessionStorage.getItem(query);
+
+    if (isInCache) {
+      return { data: JSON.parse(isInCache), error: false };
+    }
+
     try {
       const searchUrl = this.generateSearchResource(query);
       const response = await fetch(searchUrl);
       const data = await response.json();
       const transformSearchResults = data.results.map(result => new SearchResult(result));
+
+      // set response in the session storage cache.
+      sessionStorage.setItem(query, JSON.stringify(transformSearchResults));
+
       return { data: transformSearchResults, totalResults: data.total_results, error: false };
     } catch (e) {
       return { error: true, data: e };
