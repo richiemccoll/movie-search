@@ -2,35 +2,37 @@
 
 exports[`Card should render correctly 1`] = `
 <article
-  className="jsx-3065145673"
+  className="jsx-127806560"
 >
   <img
     alt=""
-    className="jsx-3065145673"
+    className="jsx-127806560"
     src="url-to-image"
   />
   <h2
-    className="jsx-3065145673"
+    className="jsx-127806560"
   >
     test
   </h2>
   <p
-    className="jsx-3065145673"
+    className="jsx-127806560"
   >
     this is a test
   </p>
-  <small
-    className="jsx-3065145673"
+  <label
+    className="jsx-127806560 tag release-date"
   >
     Release Date - 
     today
-  </small>
+  </label>
   <small
-    className="jsx-3065145673"
+    className="jsx-127806560 tag popularity"
   >
     Popularity - 
     10
      / 10 
+    👍👍
+     
   </small>
 </article>
 `;

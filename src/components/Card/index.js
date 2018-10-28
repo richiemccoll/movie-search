@@ -1,6 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+const getThumbsRating = (rating) => {
+  if (rating > 7) {
+    return `👍👍`;
+  }
+
+  if (rating >= 4 && rating <= 7) {
+    return `👍`;
+  }
+
+  return `👎`;
+};
+
 export default function Card({
   image, title, overview, popularity, releaseDate,
 }) {
@@ -9,8 +21,10 @@ export default function Card({
       <img src={image} alt="" />
       <h2>{title}</h2>
       <p>{overview}</p>
-      <small>Release Date - {releaseDate}</small>
-      <small>Popularity - {popularity} / 10 </small>
+      <label className="tag release-date">Release Date - {releaseDate}</label>
+      <small className="tag popularity">
+        Popularity - {popularity} / 10 {getThumbsRating(popularity)}{" "}
+      </small>
       <style jsx>
         {`
           article {
@@ -50,9 +64,39 @@ export default function Card({
             font-size: 12px;
           }
 
-          p,
-          small {
+          p {
+            margin: 0 auto;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 2;
+            line-height: 1.2em;
+            font-size: 14px;
+            height: 20px;
+            display: block;
+            display: -webkit-box;
+            max-width: 400px;
+            margin-bottom: 20px;
             padding: 1em;
+          }
+
+          .tag {
+            display: block;
+            padding: 1em;
+            border-radius: 5px;
+            font-size: 12px;
+            color: white;
+            width: 50%;
+            margin: 1em;
+            text-align: center;
+          }
+
+          .release-date {
+            background-color: #ff9100;
+          }
+
+          .popularity {
+            background-color: #00e5ff;
           }
         `}
       </style>

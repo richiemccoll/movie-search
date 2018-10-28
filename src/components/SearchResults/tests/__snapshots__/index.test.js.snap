@@ -8,35 +8,37 @@ exports[`SearchResults should render a list of results 1`] = `
     className="jsx-455658503"
   >
     <article
-      className="jsx-3065145673"
+      className="jsx-127806560"
     >
       <img
         alt=""
-        className="jsx-3065145673"
+        className="jsx-127806560"
         src="image-url-1"
       />
       <h2
-        className="jsx-3065145673"
+        className="jsx-127806560"
       >
         title-1
       </h2>
       <p
-        className="jsx-3065145673"
+        className="jsx-127806560"
       >
         overview-1
       </p>
-      <small
-        className="jsx-3065145673"
+      <label
+        className="jsx-127806560 tag release-date"
       >
         Release Date - 
         release-date-1
-      </small>
+      </label>
       <small
-        className="jsx-3065145673"
+        className="jsx-127806560 tag popularity"
       >
         Popularity - 
         1
          / 10 
+        👎
+         
       </small>
     </article>
   </li>
@@ -44,35 +46,37 @@ exports[`SearchResults should render a list of results 1`] = `
     className="jsx-455658503"
   >
     <article
-      className="jsx-3065145673"
+      className="jsx-127806560"
     >
       <img
         alt=""
-        className="jsx-3065145673"
+        className="jsx-127806560"
         src="image-url-2"
       />
       <h2
-        className="jsx-3065145673"
+        className="jsx-127806560"
       >
         title-2
       </h2>
       <p
-        className="jsx-3065145673"
+        className="jsx-127806560"
       >
         overview-2
       </p>
-      <small
-        className="jsx-3065145673"
+      <label
+        className="jsx-127806560 tag release-date"
       >
         Release Date - 
         release-date-2
-      </small>
+      </label>
       <small
-        className="jsx-3065145673"
+        className="jsx-127806560 tag popularity"
       >
         Popularity - 
         2
          / 10 
+        👎
+         
       </small>
     </article>
   </li>
@@ -80,35 +84,37 @@ exports[`SearchResults should render a list of results 1`] = `
     className="jsx-455658503"
   >
     <article
-      className="jsx-3065145673"
+      className="jsx-127806560"
     >
       <img
         alt=""
-        className="jsx-3065145673"
+        className="jsx-127806560"
         src="image-url-3"
       />
       <h2
-        className="jsx-3065145673"
+        className="jsx-127806560"
       >
         title-3
       </h2>
       <p
-        className="jsx-3065145673"
+        className="jsx-127806560"
       >
         overview-3
       </p>
-      <small
-        className="jsx-3065145673"
+      <label
+        className="jsx-127806560 tag release-date"
       >
         Release Date - 
         release-date-3
-      </small>
+      </label>
       <small
-        className="jsx-3065145673"
+        className="jsx-127806560 tag popularity"
       >
         Popularity - 
         3
          / 10 
+        👎
+         
       </small>
     </article>
   </li>
