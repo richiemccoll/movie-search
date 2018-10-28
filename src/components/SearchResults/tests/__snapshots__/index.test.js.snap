@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResults should render a list of results 1`] = `
+<ul
+  className="jsx-455658503"
+>
+  <li
+    className="jsx-455658503"
+  >
+    <article
+      className="jsx-3065145673"
+    >
+      <img
+        alt=""
+        className="jsx-3065145673"
+        src="image-url-1"
+      />
+      <h2
+        className="jsx-3065145673"
+      >
+        title-1
+      </h2>
+      <p
+        className="jsx-3065145673"
+      >
+        overview-1
+      </p>
+      <small
+        className="jsx-3065145673"
+      >
+        Release Date - 
+        release-date-1
+      </small>
+      <small
+        className="jsx-3065145673"
+      >
+        Popularity - 
+        1
+         / 10 
+      </small>
+    </article>
+  </li>
+  <li
+    className="jsx-455658503"
+  >
+    <article
+      className="jsx-3065145673"
+    >
+      <img
+        alt=""
+        className="jsx-3065145673"
+        src="image-url-2"
+      />
+      <h2
+        className="jsx-3065145673"
+      >
+        title-2
+      </h2>
+      <p
+        className="jsx-3065145673"
+      >
+        overview-2
+      </p>
+      <small
+        className="jsx-3065145673"
+      >
+        Release Date - 
+        release-date-2
+      </small>
+      <small
+        className="jsx-3065145673"
+      >
+        Popularity - 
+        2
+         / 10 
+      </small>
+    </article>
+  </li>
+  <li
+    className="jsx-455658503"
+  >
+    <article
+      className="jsx-3065145673"
+    >
+      <img
+        alt=""
+        className="jsx-3065145673"
+        src="image-url-3"
+      />
+      <h2
+        className="jsx-3065145673"
+      >
+        title-3
+      </h2>
+      <p
+        className="jsx-3065145673"
+      >
+        overview-3
+      </p>
+      <small
+        className="jsx-3065145673"
+      >
+        Release Date - 
+        release-date-3
+      </small>
+      <small
+        className="jsx-3065145673"
+      >
+        Popularity - 
+        3
+         / 10 
+      </small>
+    </article>
+  </li>
+</ul>
+`;
+
+exports[`SearchResults should render null if no results 1`] = `null`;
