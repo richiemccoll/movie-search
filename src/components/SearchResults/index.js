@@ -1,4 +1,8 @@
 import React, { Fragment } from "react";
+import PropTypes from "prop-types";
+
+import SearchResult from "../../models/SearchResult";
+
 import Card from "../Card";
 
 function SearchResults({ results }) {
@@ -50,5 +54,9 @@ function SearchResults({ results }) {
     </Fragment>
   );
 }
+
+SearchResults.propTypes = {
+  results: PropTypes.arrayOf(PropTypes.instanceOf(SearchResult)),
+};
 
 export default SearchResults;

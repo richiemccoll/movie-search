@@ -13,7 +13,7 @@ exports[`SearchResults should render a list of results 1`] = `
       <img
         alt=""
         className="jsx-1656035587"
-        src="image-url-1"
+        src="http://image.tmdb.org/t/p/w342/image-url-1"
       />
       <h2
         className="jsx-1656035587"
@@ -51,7 +51,7 @@ exports[`SearchResults should render a list of results 1`] = `
       <img
         alt=""
         className="jsx-1656035587"
-        src="image-url-2"
+        src="http://image.tmdb.org/t/p/w342/image-url-2"
       />
       <h2
         className="jsx-1656035587"
@@ -89,7 +89,7 @@ exports[`SearchResults should render a list of results 1`] = `
       <img
         alt=""
         className="jsx-1656035587"
-        src="image-url-3"
+        src="http://image.tmdb.org/t/p/w342/image-url-3"
       />
       <h2
         className="jsx-1656035587"
