@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Models - SearchResult should generate a model based off data 1`] = `
+SearchResult {
+  "generateImageUrl": [Function],
+  "image_url": "http://image.tmdb.org/t/p/w342/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+  "overview": "Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. B…",
+  "popularity": 7.5,
+  "release_date": "2018-10-03",
+  "title": "A Star Is Born",
+}
+`;
