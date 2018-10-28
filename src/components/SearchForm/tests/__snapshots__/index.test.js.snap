@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchForm should display some sort of error to the user 1`] = `"<input type=\\"text\\" id=\\"search\\" aria-invalid=\\"false\\" required=\\"\\" class=\\"jsx-4134789409 search-input\\"/>"`;
+
+exports[`SearchForm should display some sort of error to the user 2`] = `"<input type=\\"text\\" id=\\"search\\" aria-invalid=\\"true\\" required=\\"\\" class=\\"jsx-4134789409 search-input\\"/>"`;
+
+exports[`SearchForm should render correctly 1`] = `
+<section>
+  <form
+    className="jsx-4134789409"
+    onSubmit={[Function]}
+  >
+    <div
+      className="jsx-4134789409"
+      role="search"
+    >
+      <label
+        className="jsx-4134789409 search-label"
+        htmlFor="search"
+      >
+        Search for a movie
+      </label>
+      <input
+        aria-invalid={false}
+        className="jsx-4134789409 search-input"
+        id="search"
+        required={true}
+        type="text"
+      />
+      <input
+        className="jsx-4134789409 button"
+        type="submit"
+        value="Search"
+      />
+    </div>
+  </form>
+</section>
+`;
