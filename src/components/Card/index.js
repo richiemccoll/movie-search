@@ -32,6 +32,7 @@ export default function Card({
             width: 100%;
             padding-bottom: 0.5em;
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+            margin: 0 auto;
           }
 
           h2 {
@@ -69,10 +70,10 @@ export default function Card({
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
-            -webkit-line-clamp: 2;
+            -webkit-line-clamp: 3;
             line-height: 1.2em;
             font-size: 14px;
-            height: 20px;
+            height: 35px;
             display: block;
             display: -webkit-box;
             max-width: 400px;

@@ -8,31 +8,31 @@ exports[`SearchResults should render a list of results 1`] = `
     className="jsx-455658503"
   >
     <article
-      className="jsx-127806560"
+      className="jsx-1656035587"
     >
       <img
         alt=""
-        className="jsx-127806560"
+        className="jsx-1656035587"
         src="image-url-1"
       />
       <h2
-        className="jsx-127806560"
+        className="jsx-1656035587"
       >
         title-1
       </h2>
       <p
-        className="jsx-127806560"
+        className="jsx-1656035587"
       >
         overview-1
       </p>
       <label
-        className="jsx-127806560 tag release-date"
+        className="jsx-1656035587 tag release-date"
       >
         Release Date - 
         release-date-1
       </label>
       <small
-        className="jsx-127806560 tag popularity"
+        className="jsx-1656035587 tag popularity"
       >
         Popularity - 
         1
@@ -46,31 +46,31 @@ exports[`SearchResults should render a list of results 1`] = `
     className="jsx-455658503"
   >
     <article
-      className="jsx-127806560"
+      className="jsx-1656035587"
     >
       <img
         alt=""
-        className="jsx-127806560"
+        className="jsx-1656035587"
         src="image-url-2"
       />
       <h2
-        className="jsx-127806560"
+        className="jsx-1656035587"
       >
         title-2
       </h2>
       <p
-        className="jsx-127806560"
+        className="jsx-1656035587"
       >
         overview-2
       </p>
       <label
-        className="jsx-127806560 tag release-date"
+        className="jsx-1656035587 tag release-date"
       >
         Release Date - 
         release-date-2
       </label>
       <small
-        className="jsx-127806560 tag popularity"
+        className="jsx-1656035587 tag popularity"
       >
         Popularity - 
         2
@@ -84,31 +84,31 @@ exports[`SearchResults should render a list of results 1`] = `
     className="jsx-455658503"
   >
     <article
-      className="jsx-127806560"
+      className="jsx-1656035587"
     >
       <img
         alt=""
-        className="jsx-127806560"
+        className="jsx-1656035587"
         src="image-url-3"
       />
       <h2
-        className="jsx-127806560"
+        className="jsx-1656035587"
       >
         title-3
       </h2>
       <p
-        className="jsx-127806560"
+        className="jsx-1656035587"
       >
         overview-3
       </p>
       <label
-        className="jsx-127806560 tag release-date"
+        className="jsx-1656035587 tag release-date"
       >
         Release Date - 
         release-date-3
       </label>
       <small
-        className="jsx-127806560 tag popularity"
+        className="jsx-1656035587 tag popularity"
       >
         Popularity - 
         3
