@@ -4,7 +4,7 @@
 
 - Webpack 4
 - Babel 7
-- React@16.7
+- React@16.5
 - ESLint AirBnb
 - Styled-jsx
 - Testing suite uses Jest and Enzyme
