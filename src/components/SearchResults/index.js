@@ -56,7 +56,7 @@ function SearchResults({ results }) {
 }
 
 SearchResults.propTypes = {
-  results: PropTypes.arrayOf(PropTypes.instanceOf(SearchResult)),
+  results: PropTypes.arrayOf(PropTypes.object), //eslint-disable-line
 };
 
 export default SearchResults;

@@ -1,6 +1,18 @@
 import React, { Component } from "react";
 import MovieService from "../../services/Movie";
 
+export function handleErrors(previousState, error) {
+  return { ...previousState, searchError: error };
+}
+
+export function handleNoResults(previousState) {
+  return { ...previousState, noResults: true };
+}
+
+export function handleResults(previousState, results) {
+  return { ...previousState, searchData: results, noResults: false };
+}
+
 class MovieSearch extends Component {
   state = {
     searchData: [],
@@ -14,14 +26,14 @@ class MovieSearch extends Component {
     const { error, data, totalResults } = await this.movieService.search(searchTerm);
 
     if (error) {
-      return this.setState(() => ({ ...this.state, searchError: data }));
+      return this.setState(prevState => handleErrors(prevState, data));
     }
 
     if (totalResults === 0) {
-      return this.setState(() => ({ ...this.state, noResults: true, searchData: [] }));
+      return this.setState(prevState => handleNoResults(prevState));
     }
 
-    return this.setState(() => ({ ...this.state, searchData: data, noResults: false }));
+    return this.setState(prevState => handleResults(prevState, data));
   };
 
   render() {
